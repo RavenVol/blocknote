@@ -1,0 +1,32 @@
+.notesWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  perspective: 187.5vw;
+  transform-style: preserve-3d;
+  perspective-origin: 50% 50%;
+  z-index: 10;
+}
+
+.noteWrapper {
+  position: absolute;
+  width: 15vw;
+  height: 22.5vw;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0.37vw 0.37vw 0px #00000077;
+  background-color: white;
+  transition: 500ms linear;
+}
+
+@media screen and (max-width: 450px) {
+  .noteWrapper {
+    width: 15vw;
+    height: 22.5vw;
+    border-radius: 3px;
+    box-shadow: 0px 0.37vw 0.37vw 0px #00000077;
+  }
+}
+
+/*# sourceMappingURL=blocknote.css.map */

@@ -1,0 +1,42 @@
+.layersWrap {
+  position: relative;
+  height: 93vh;
+  perspective: 1px;
+  perspective-origin: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #14182f 0%, #4f5eb3 100%);
+}
+
+.layer0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateZ(0px);
+  z-index: 1;
+}
+
+.layer1 {
+  position: absolute;
+  top: -49%;
+  left: -50%;
+  transform: translateZ(-1px);
+}
+
+.layer2 {
+  position: absolute;
+  top: -99%;
+  left: -100%;
+  transform: translateZ(-2px);
+}
+
+.layer3 {
+  position: absolute;
+  top: -149%;
+  left: -150%;
+  transform: translateZ(-3px);
+}
+
+/*# sourceMappingURL=paralax.css.map */

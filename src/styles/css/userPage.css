@@ -1,0 +1,102 @@
+.user {
+  min-height: 93vh;
+}
+.user__blockNotes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bn__wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  margin: 2.22vw 0;
+  padding: 1.11vw 2.22vw;
+  box-sizing: border-box;
+  border: 0.375vw solid;
+  box-shadow: inset 0px 0px 0px 0.375vw white;
+  transition: 300ms linear;
+}
+.bn__wrap:nth-child(odd) {
+  border-radius: 15vw 0 0 15vw;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+.bn__wrap:nth-child(even) {
+  border-radius: 0 15vw 15vw 0;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.bn__title {
+  height: 24.5vw;
+  color: #ffffff;
+  font-size: 4vw;
+  writing-mode: vertical-rl;
+  text-align: center;
+  margin: 0 0.7vw;
+  transition: 300ms linear;
+}
+.bn__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.bnMenu {
+  width: 3vw;
+}
+.bnMenu__btn {
+  background: none;
+  border: none;
+  margin: 0.3vw 0;
+  padding: 0;
+  z-index: 1;
+}
+.bnMenu__img {
+  width: 2vw;
+  height: 2vw;
+  transition: 200ms linear;
+}
+.bnMenu__img:hover {
+  width: 3vw;
+  height: 3vw;
+}
+.bnMenu__img--danger {
+  fill: #ffd90070;
+}
+.bnMenu__img--danger:hover {
+  fill: red;
+}
+.bnMenu__img--normal {
+  fill: #ffffffcc;
+}
+.bnMenu__img--normal:hover {
+  fill: #ffd900;
+}
+
+.bgImgWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background: none;
+  width: 100%;
+  height: 100%;
+  transition: 300ms linear;
+}
+.bgImgWrap--left {
+  border-radius: 15vw 0 0 15vw;
+}
+.bgImgWrap--right {
+  border-radius: 0 15vw 15vw 0;
+}
+
+.bgImg {
+  position: absolute;
+  fill: #ffffff44;
+  transition: 500ms linear;
+}
+
+/*# sourceMappingURL=userPage.css.map */
