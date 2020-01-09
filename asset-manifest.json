@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blocknote/static/css/main.702068e1.chunk.css",
+    "main.js": "/blocknote/static/js/main.79b07ac1.chunk.js",
+    "main.js.map": "/blocknote/static/js/main.79b07ac1.chunk.js.map",
+    "runtime-main.js": "/blocknote/static/js/runtime-main.b19f230e.js",
+    "runtime-main.js.map": "/blocknote/static/js/runtime-main.b19f230e.js.map",
+    "static/js/2.f94512c4.chunk.js": "/blocknote/static/js/2.f94512c4.chunk.js",
+    "static/js/2.f94512c4.chunk.js.map": "/blocknote/static/js/2.f94512c4.chunk.js.map",
+    "index.html": "/blocknote/index.html",
+    "precache-manifest.7e08648c2f61a926663d50c9c08497bd.js": "/blocknote/precache-manifest.7e08648c2f61a926663d50c9c08497bd.js",
+    "service-worker.js": "/blocknote/service-worker.js",
+    "static/css/main.702068e1.chunk.css.map": "/blocknote/static/css/main.702068e1.chunk.css.map",
+    "static/js/2.f94512c4.chunk.js.LICENSE": "/blocknote/static/js/2.f94512c4.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b19f230e.js",
+    "static/js/2.f94512c4.chunk.js",
+    "static/css/main.702068e1.chunk.css",
+    "static/js/main.79b07ac1.chunk.js"
+  ]
+}
